@@ -1,0 +1,25 @@
+{
+  "name": "@godgiven/icons",
+  "version": "0.16.0",
+  "description": "icons text list",
+  "keywords": [
+    "icons",
+    "typescript"
+  ],
+  "main": "icons.js",
+  "type": "module",
+  "types": "icons.d.ts",
+  "contributors": [
+    "Mohammad Khodadadi <asmanp2012@gmail.com>"
+  ],
+  "license": "MIT",
+  "files": [
+    "**/*.{d.ts.map,d.ts,js.map,js,html,md}"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "tslib": "^2.4.1"
+  }
+}

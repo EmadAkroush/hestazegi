@@ -1,0 +1,281 @@
+.slider-details .swiper-rtl .swiper-button-prev {
+  background-color: #B0BF24;
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  display: flex;
+}
+.slider-details .swiper-rtl .swiper-button-next {
+  background-color: #B0BF24;
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  display: flex;
+}
+.slider-details .swiper-slide-visible {
+  width: 192px !important;
+  height: 112px !important;
+  margin: 16px 0 0 20px;
+}
+.slider-details .swiper-slide-active {
+  height: 350px;
+}
+.slider-details .swiper {
+  width: 100%;
+  height: 100%;
+}
+.slider-details .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-details .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.slider-details .mySwiper2 {
+  --swiper-navigation-color: #fff;
+  --swiper-pagination-color: #fff;
+  --swiper-navigation-size: 20px;
+  width: 100% !important;
+  aspect-ratio: 10/4;
+}
+.slider-details .mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.slider-details .mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+.slider-details .mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.slider-details .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-details .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.slider-details .swiper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slider-details .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.slider-details .mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+.slider-details .mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 0;
+}
+.slider-details .mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+  margin-top: 10px;
+}
+.slider-details .mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.slider-details .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.slider-details .mySwiper2 {
+  height: 350px;
+}
+
+.swiper-wrapper {
+  height: 140px !important;
+}
+
+.shadow {
+  background: #FFFFFF;
+  /* 16810E1E1E1 */
+  box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+  border-radius: 8px;
+}
+
+.page-details {
+  background-color: #F5F5F5;
+  height: -webkit-max-content !important;
+  height: -moz-max-content !important;
+  height: max-content !important;
+}
+
+.status-bar-details {
+  margin-left: 11px;
+  margin-bottom: 21px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #E4E6EF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status-bar-details .btn-buy-order {
+  width: 172px;
+  height: 48px;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px !important;
+  line-height: 24px;
+  filter: drop-shadow(0px 8px 16px rgba(225, 225, 225, 0.1));
+  border-radius: 8px;
+  background-color: #B0BF24;
+  margin: 0 4px;
+}
+.status-bar-details .btn-buy-order:hover {
+  background-color: #B0BF24;
+}
+.status-bar-details .btn-share {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  min-width: 48px;
+  margin: 0 4px;
+  background-color: white;
+}
+.status-bar-details .btn-share:hover {
+  background-color: white;
+}
+.status-bar-details .btn-like {
+  width: 72px;
+  height: 48px;
+  border-radius: 8px;
+  margin: 0 4px;
+  background-color: white;
+  color: #656565;
+  font-size: 12px !important;
+}
+.status-bar-details .btn-like:hover {
+  background-color: white;
+}
+.status-bar-details .status-bar-icon {
+  color: #656565;
+  font-size: 20px;
+}
+.status-bar-details .status-bar-icon-like {
+  margin-right: 13px;
+}
+.status-bar-details .link-bar li {
+  display: inline;
+}
+.status-bar-details .link-bar {
+  display: block;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+}
+.status-bar-details .link-bar .link-bar-first {
+  color: #B0BF24;
+}
+
+.details-h1 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800 !important;
+  font-size: 22px !important;
+  line-height: 32px !important;
+}
+
+.body-main-details {
+  margin-top: -11% !important;
+}
+
+@media only screen and (max-width: 1300px) {
+  .body-main-details {
+    margin-top: -14% !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .food-table .btn {
+    height: 56px;
+    margin-top: 23px;
+    border: 4px solid #FFE2A6;
+  }
+  .top-table {
+    padding-top: 0px !important;
+  }
+  .first-line {
+    flex-direction: column;
+  }
+  .status-bar-details {
+    padding-bottom: 0;
+    border-bottom: none;
+    width: 100%;
+  }
+  .status-bar-details .btn-buy-order {
+    display: none;
+  }
+  .status-bar-details .btn-share {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    margin-top: 20px;
+    box-shadow: none;
+  }
+  .status-bar-details .btn-like {
+    width: 60px;
+    height: 36px;
+    margin-top: 20px;
+    box-shadow: none;
+  }
+  .status-bar-icon-like {
+    color: #F69427 !important;
+  }
+  .info-food {
+    margin: 0 0;
+  }
+  .slider-details .mySwiper2 {
+    height: 172px;
+    aspect-ratio: 4/1;
+  }
+  .swiper-backface-hidden .swiper-slide {
+    width: 94vw !important;
+  }
+  .slider-details .mySwiper .swiper-slide {
+    width: 104px !important;
+    height: 80px !important;
+  }
+  .tabs-bar {
+    display: none;
+  }
+  .mobile-content {
+    display: block;
+  }
+  .css-hagxv6-MuiGrid-root {
+    width: 100%;
+  }
+}/*# sourceMappingURL=details.css.map */

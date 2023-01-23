@@ -1,0 +1,26 @@
+{
+  "name": "@godgiven/util",
+  "version": "0.16.0",
+  "description": "util function",
+  "keywords": [
+    "icons",
+    "typescript"
+  ],
+  "main": "util.js",
+  "type": "module",
+  "types": "util.d.ts",
+  "contributors": [
+    "Mohammad Khodadadi <asmanp2012@gmail.com>"
+  ],
+  "license": "MIT",
+  "files": [
+    "**/*.{d.ts.map,d.ts,js.map,js,html,md}"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+
+  "dependencies": {
+    "tslib": "^2.3.1"
+  }
+}

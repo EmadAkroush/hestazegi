@@ -1,0 +1,235 @@
+.whatcooking {
+  background-color: #F5F5F5;
+  padding: 40px 40px 18px 40px;
+}
+.whatcooking .custom-container {
+  background-color: #F5F5F5;
+}
+.whatcooking .parent-container {
+  border-radius: 24px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+.whatcooking .whatcooking-right {
+  background-image: linear-gradient(87.6deg, #F69427 3.69%, #FF7D1F 92.18%);
+  width: 100%;
+  height: 490px;
+  border-radius: 24px;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+.whatcooking .whatcooking-right .top {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  border-radius: 24px 24px 0 0;
+  border: 8px solid white;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+  border: 1px solid #F69427;
+}
+.whatcooking .whatcooking-right .top .top-text {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800 !important;
+  font-size: 28px !important;
+  line-height: 40px;
+  color: #F69427 !important;
+}
+.whatcooking .whatcooking-right .undertop {
+  border-bottom: 1px solid white;
+  margin-bottom: 0;
+}
+.whatcooking .whatcooking-right .undertop .text .text-text {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 32px;
+}
+.whatcooking .whatcooking-right .undertop .undertop-text {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px !important;
+  line-height: 40px;
+  color: #FFFFFF !important;
+  margin: 15px 23px 0 0;
+  padding-bottom: 15px;
+}
+.whatcooking .whatcooking-right .body {
+  padding: 21px 32px !important;
+}
+.whatcooking .whatcooking-right .body .body-text-onvan {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px !important;
+  line-height: 32px;
+  color: #F9FAFB !important;
+}
+.whatcooking .whatcooking-right .body .body-text {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px !important;
+  line-height: 32px;
+  text-align: right;
+  color: #F9FAFB;
+}
+.whatcooking .whatcooking-right .box-btn {
+  display: flex;
+  justify-content: center;
+}
+.whatcooking .whatcooking-right .box-btn .btn {
+  height: 56px;
+  width: 357px;
+  background-color: white;
+  color: #F69427;
+  margin-top: 60px;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px !important;
+  line-height: 24px;
+}
+.whatcooking .whatcooking-right .box-btn .btn .icon {
+  font-size: 20px;
+}
+.whatcooking .whatcooking-left .top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid red;
+  padding: 24px 42px;
+  border: 1px solid #EFEFEF;
+}
+.whatcooking .whatcooking-left .top .dinner {
+  height: 40px;
+  width: 123px;
+  border: 1px solid #B5B5C3;
+  border-radius: 20px;
+  padding: 6px 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whatcooking .whatcooking-left .top .dinner .right-btn {
+  width: 50px;
+  height: 28px;
+  min-width: 28px;
+  background-color: #F69427;
+  border-radius: 17px;
+  color: white;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px !important;
+  line-height: 130%;
+}
+.whatcooking .whatcooking-left .top .dinner .left-btn {
+  width: 50px;
+  height: 28px;
+  min-width: 28px;
+  border-radius: 17px;
+  color: #3F4254;
+  background-color: white;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px !important;
+  line-height: 130%;
+}
+.whatcooking .whatcooking-left .top .share .share-icon {
+  font-size: 24px;
+  color: #F69427;
+}
+.whatcooking .whatcooking-left .under-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 47px 16px 47px;
+  border: 1px solid #EFEFEF;
+}
+.whatcooking .whatcooking-left .under-top .under-top-right {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.whatcooking .whatcooking-left .under-top .under-top-right .text .text-text {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 32px;
+  margin-right: 8px;
+  color: #656565;
+  margin-top: 2px;
+}
+.whatcooking .whatcooking-left .under-top .under-top-right .pic-icon {
+  font-size: 30px;
+  color: #F69427;
+}
+.whatcooking .whatcooking-left .under-top .under-top-left {
+  display: flex;
+}
+.whatcooking .whatcooking-left .under-top .under-top-left .text-tick {
+  display: flex;
+  padding-top: 10px;
+}
+.whatcooking .whatcooking-left .under-top .under-top-left .text-tick .right {
+  display: flex;
+  align-items: center;
+}
+.whatcooking .whatcooking-left .under-top .under-top-left .text-tick .right .icon-right {
+  font-size: 20px;
+  color: #F69427;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.whatcooking .whatcooking-left .under-top .under-top-left .text-tick .left {
+  display: flex;
+  align-items: center;
+}
+.whatcooking .whatcooking-left .under-top .under-top-left .text-tick .left .p-left {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px !important;
+  line-height: 24px;
+  text-align: center;
+  color: #656565 !important;
+}
+.whatcooking .whatcooking-left .body {
+  padding: 10px 45px;
+  display: flex;
+  gap: 48px;
+}
+.whatcooking .whatcooking-left .body .link-mobile .img-card {
+  aspect-ratio: 10/5;
+}
+.whatcooking .whatcooking-left .body .link-mobile .title-card .title {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #181C32;
+}
+.whatcooking .whatcooking-left .body .card-hestazegi .card-ac {
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  .whatcooking .whatcooking-right {
+    display: none;
+  }
+}/*# sourceMappingURL=whatcooking.css.map */

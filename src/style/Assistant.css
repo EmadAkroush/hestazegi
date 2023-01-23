@@ -1,0 +1,47 @@
+.Assistant {
+  padding: 32px 50px 40px 50px;
+  background: #F5F5F5;
+}
+.Assistant .img-back {
+  background-image: url(../../public/assets/img/Assistant.png);
+  background-size: cover;
+  width: 100% !important;
+  padding: 39px 69px;
+  aspect-ratio: 8/1.8;
+  border-radius: 14px;
+}
+.Assistant .img-back-p-down {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px;
+  color: #F9FAFB;
+  margin-top: 8px;
+}
+.Assistant .img-back-p-up {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px !important;
+  line-height: 40px;
+  color: #F9FAFB !important;
+}
+.Assistant .img-back-btn {
+  font-family: "DanaFaNum" !important;
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px !important;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #404040;
+  width: 187px;
+  height: 40px;
+  background-color: white;
+}
+.Assistant .img-back-btn:hover {
+  background-color: white;
+}/*# sourceMappingURL=Assistant.css.map */

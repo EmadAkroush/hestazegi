@@ -1,0 +1,104 @@
+.Provincialcuisine {
+    padding: 32px 40px;
+
+    .Science {
+        .Science-p {
+            font-family: 'DanaFaNum';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 40px;
+            color: #F69427;
+        }
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .top-right {
+        margin-right: 10px;
+        display: flex;
+
+        .top-text {
+            font-family: 'DanaFaNum' !important;
+            font-style: normal;
+            font-weight: 800 !important;
+            font-size: 28px !important;
+            line-height: 40px;
+            color: #181C32;
+            margin-left: 24px;
+        }
+
+
+    }
+
+    .top-left {
+        display: flex;
+        align-items: center;
+
+        .Recommendeddishes-p {
+            font-family: 'DanaFaNum' !important;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px !important;
+            line-height: 40px;
+            color: #F69427;
+            margin-right: 29px;
+        }
+
+        .Recommendeddishes-icon {
+            font-size: 20px;
+            color: #F69427;
+
+
+        }
+
+        .top-left-icon {
+            display: flex;
+
+        }
+
+        .arrow-icon {
+            font-size: 25px !important;
+        }
+
+        .top-right-btn {
+            display: flex;
+
+            .arrow-icon {
+                font-size: 25px !important;
+            }
+
+        }
+    }
+
+    .body {
+        display: flex;
+        margin-top: 10px;
+        .link-mobile {
+            .img-card {
+                aspect-ratio: 10/5;
+            }
+
+            .title-card {
+                .title{
+                font-family: 'DanaFaNum' !important;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px !important;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                text-align: right;
+                color: #181C32;
+                }
+            }
+        }
+        .card-hestazegi .card-ac{
+            flex-direction: row;
+        }
+    }
+}

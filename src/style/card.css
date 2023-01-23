@@ -1,0 +1,229 @@
+.card-hestazegi {
+  margin: 12px;
+  border: none;
+  box-shadow: 0px 4px 16px rgba(137, 137, 137, 0.1) !important;
+}
+.card-hestazegi .heart-icon {
+  color: #F69427 !important;
+}
+.card-hestazegi .heart-icon-i {
+  color: #F69427 !important;
+}
+.card-hestazegi .link-mobile {
+  position: relative;
+}
+.card-hestazegi .link-mobile .heart-icon {
+  position: absolute;
+  top: 0;
+}
+.card-hestazegi .link-mobile .free-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.card-hestazegi .css-1t6e9jv-MuiCardActions-root {
+  padding: 2px 8px 4px 8px;
+}
+.card-hestazegi .MuiCardContent-root {
+  padding-bottom: 0 !important;
+}
+.card-hestazegi .img-card {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 8/5;
+}
+.card-hestazegi .img-icon {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  opacity: 70%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.card-hestazegi .title-card {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.card-hestazegi .title-card-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.card-hestazegi .body-card {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+}
+.card-hestazegi .card-rating {
+  color: #F69427;
+}
+.card-hestazegi .title {
+  font-style: normal;
+  font-weight: 500;
+  font-weight: 500;
+  font-size: 22px !important;
+  line-height: 32px;
+}
+.card-hestazegi .rating {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+}
+.card-hestazegi .stars {
+  font-size: 16px;
+}
+.card-hestazegi .counter {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+}
+.card-hestazegi .clock {
+  font-size: 22px;
+  margin-left: 4px;
+}
+.card-hestazegi .bottom {
+  margin-top: 12px;
+  display: flex;
+  padding-bottom: 16px;
+}
+.card-hestazegi .b-icon {
+  color: #FDA239;
+  margin-left: 7px;
+}
+.card-hestazegi .card-ac {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  -webkit-align-items: start;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-content {
+    padding-block: 0 !important;
+  }
+  .main-header {
+    border-bottom: 1px solid #E4E6EF;
+  }
+  .btn-filter .delete-btn {
+    display: none !important;
+  }
+  .btn-filter .btn-item {
+    margin: 4px 0 !important;
+  }
+  .btn-filter .link-bar-btn {
+    border: 1px solid #EFEFEF;
+    box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+    border-radius: 8px;
+    margin-right: 0 !important;
+    padding: 11px 15px 45px 15px !important;
+    margin-bottom: 7px;
+  }
+  .upbar-body {
+    display: none !important;
+  }
+  .recipes-h1 {
+    display: none;
+  }
+  .card-hestazegi {
+    margin: 6px;
+  }
+  .card-hestazegi .MuiCardContent-root {
+    padding: 2px 11px 9px 11px;
+    margin-bottom: 0;
+  }
+  .card-hestazegi .img-card {
+    width: 100%;
+    border-radius: 8px;
+    padding: 4px;
+    aspect-ratio: 8/5;
+  }
+  .card-hestazegi .title-card-in {
+    display: none;
+  }
+  .card-hestazegi .img-icon {
+    display: none;
+  }
+  .card-hestazegi .title-card {
+    display: flex;
+    justify-content: center;
+  }
+  .card-hestazegi .title-card .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-hestazegi .bottom {
+    display: none;
+  }
+  .card-hestazegi .body-card {
+    display: none;
+  }
+  .card-hestazegi .body-card-mobile {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .card-hestazegi .body-card-mobile .mobile-sum {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+  }
+  .card-hestazegi .body-card-mobile .mobile-rating {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 7px;
+    margin-left: 3px;
+  }
+  .card-hestazegi .body-card-mobile .mobile-clock {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+  }
+  .card-hestazegi .body-card-mobile .mobile-counter {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px !important;
+    line-height: 12px;
+  }
+  .card-hestazegi .body-card-mobile .mobile-time {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .card-hestazegi .body-card-mobile .right-mobile {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .card-hestazegi .body-card-mobile .left-mobile {
+    display: flex;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .body-card-mobile {
+    display: none;
+  }
+}/*# sourceMappingURL=card.css.map */

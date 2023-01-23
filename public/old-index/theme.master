@@ -1,0 +1,189 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="theme.master.cs" Inherits="websanMaster" %>
+<!DOCTYPE html>
+
+
+<%--<html dir="<%=Ws.Param(p, "theme:site_direction", "rtl") %>" lang="<%=Ws.Param(p, "theme:site_language", "fa").ToLower() %>"  class="side-header-hamburguer-sidebar side-header-hamburguer-sidebar-right side-header-above">--%>
+<html dir="<%=Ws.Param(p, "theme:site_direction", "rtl") %>" lang="<%=Ws.Param(p, "theme:site_language", "fa").ToLower() %>" class="side-header">
+<head runat="server">
+    <title><%= Ws.Param(p, "theme:site_title", "") %></title>
+
+<% = Ws.GetBlock("~/Themes/default/blocks/parts/head.ascx",p,cmd,null)%>
+
+    <link rel="stylesheet" href="<%=p["theme:url"] %>/assets/css/plugins.min.css" />
+    <link rel="stylesheet" href="<%=p["theme:url"] %>/assets/css/theme.min.css" />
+    <link rel="stylesheet" href="<%=p["theme:url"] %>/assets/css/skin.min.css" />
+    <%--<link rel="stylesheet" href="<%=p["theme:url"] %>/assets/css/style.css" />--%>
+    <link rel="stylesheet" href="<%=p["theme:url"] %>/assets/css/flipclock.css" />
+     <link rel="stylesheet" href="<%=p["theme:url"] %>/assets/css/custom.css?v=<%=version%>" />
+    <%--<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/css/bootstrap-select.min.css'>--%>
+            <script src="<%=p["theme:url"] %>/assets/js/jquery.min.js"></script>
+
+   
+<%--<script src="<%=p["theme:url"] %>/assets/js/jquery.min.js"></script>--%>
+   <%-- <script src="<%=p["theme:url"] %>/assets/js/jquery.nicescroll.min.js" ></script>--%>
+<%--<script src="<%=p["theme:url"] %>/assets/js/modernizr.min.js"></script>--%>
+<asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <%--<% Page.Master.FindControl("head").Text=Ws.Param(this.p, "theme:headtags", "000000000");%>--%>
+ <!--BEGIN RAYCHAT CODE--> <script type="text/javascript">!function () { function t() { var t = document.createElement("script"); t.type = "text/javascript", t.async = !0, localStorage.getItem("rayToken") ? t.src = "https://app.raychat.io/scripts/js/" + o + "?rid=" + localStorage.getItem("rayToken") + "&href=" + window.location.href : t.src = "https://app.raychat.io/scripts/js/" + o + "?href=" + window.location.href; var e = document.getElementsByTagName("script")[0]; e.parentNode.insertBefore(t, e) } var e = document, a = window, o = "15993eb1-3da1-4dbe-ab31-2d82741cda38"; "complete" == e.readyState ? t() : a.attachEvent ? a.attachEvent("onload", t) : a.addEventListener("load", t, !1) }();</script> <!--END RAYCHAT CODE-->
+    <script src="<%=p["theme:url"] %>/theme/seo.js"></script>
+
+    <!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WQTBT2P');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+
+
+<%if (Ws.Param(p, "theme:page_loading", "loading1")=="loading1"){%>
+<body class="<%--loading-overlay-showing--%> body" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 100}">
+<%--<div class="loading-overlay "><div class="bounce-loader"><div class="tac"><img alt="حس تازگی" width="150" height=""  src="<%=p["theme:url"] %>/<%=Ws.Param(p, "theme:site_logo", "/assets/img/logo.png") %>"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div></div>--%>
+<%} else { %><body><%} %>
+
+<%--<%=Ws.Param(p, "theme:text[register]", "ثبت نام کنید") %>--%>
+    <%p.Add("userplan:type", userplans["type"]);%>
+    <%          if (Session["referalCode"]!=null) {
+                    p.Add("referalCode", Session["referalCode"].ToString());
+                    }
+        %>
+  <% = Ws.GetBlock("~/Themes/default/blocks/parts/header.ascx", p, cmd, null)%>
+<asp:ContentPlaceHolder ID="PageContent" runat="server"></asp:ContentPlaceHolder>
+<% = Ws.GetBlock("~/Themes/default/blocks/parts/footer.ascx", p, cmd, null)%>
+    <%       
+        Dictionary<string,string> ref_details=Project.ProjectSite.GetUserReferencer(cmd,p);
+
+        p.Add("referenced_user_caption", ref_details["fname"] + " " + ref_details["lname"]);
+        %>
+<% = Ws.GetBlock("~/Themes/default/blocks/parts/welcome_modal.ascx", p, cmd, null)%>
+
+
+
+ 
+
+
+    	
+
+
+<%--     <div class="modal fade" id="video_subscription" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content ">
+                                            <div class="modal-body p-5">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <div>
+                                                   <div id="84392920097"><script type="text/JavaScript" src="https://www.aparat.com/embed/eLvVd?data[rnddiv]=84392920097&data[responsive]=yes"></script></div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>--%>
+
+    <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModalLabel" aria-hidden="true">
+										<div class="modal-dialog modal-dialog-centered">
+											<div class="modal-content ">
+												<%--<div class="modal-header">
+													<h4 class="modal-title" id="smallModalLabel">عنوان مودال کوچک</h4>
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+												</div>--%>
+												<div class="modal-body justify-content-around d-flex">
+													<span class="btn_site">فونت بزرگ</span> <span class="btn_site">فونت کوچک</span> <span class="btn_site">فونت پیش فرض</span>
+												</div>
+												<%--<div class="modal-footer">
+													<button type="button" class="btn btn-light" data-dismiss="modal">بستن</button>
+												</div>--%>
+											</div>
+										</div>
+									</div>
+    <%--<script type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "3eabbe4d-1319-4455-8a49-73abd53253b9"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
+   --%>
+
+<script> var _themeurl = "<%=p["theme:url"] %>"; var _domain = "<%=p["site:domain"] %>";</script>
+
+<%--<script src="<%=p["theme:url"] %>/assets/js/bundles.min.js" defer></script>--%>
+
+     
+                <script src="<%=p["theme:url"] %>/assets/js/plugins.min.js" defer></script>
+                <script src="<%=p["theme:url"] %>/assets/js/theme.js" defer></script>
+               <script src="<%=p["theme:url"] %>/assets/js/jquery.nicescroll.min.js" ></script>
+        <script src="/plugins/cms/script.js?ver=<%=version%>"></script>
+<script src="/plugins/users/hessetazegi_user.js?ver=<%=version%>"></script>
+                <script src="<%=p["theme:url"] %>/assets/js/audio.js"  ></script>
+    <script src="<%=p["theme:url"] %>/assets/js/flipclock.min.js"  ></script>
+                <script src="<%=p["theme:url"] %>/assets/js/custom.js?ver=<%=version%>"></script>
+    <script src="<%=p["theme:url"] %>/theme/webservices.js?ver=<%=version%>" defer></script>
+    <script src="<%=p["theme:url"] %>/assets/js/module-ui.js?ver=<%=version%>" defer></script>
+    <script src="<%=p["theme:url"] %>/assets/js/popper.min.js" defer></script>
+    <script src="<%=p["theme:url"] %>/assets/js/js-persian-cal.min.js"></script>
+
+    <script src='<%=p["theme:url"] %>/assets/js/bootstrap.bundle.min.js'></script>
+    <script src='<%=p["theme:url"] %>/assets/js/bootstrap-select.min.js'></script>
+                
+        <script>
+            $(function () {
+                $('body').tooltip({
+                    selector: '[data-toggle="tooltip"]',
+                    container: 'body'
+                });
+              
+                $(".toppage").click(function () {
+                   
+                    $('body, html').animate({
+                        scrollTop: 0
+                    }, 1000);
+
+                })
+                   
+                
+                //$("#headerSearch").click(function () {
+                //    $(".history").toggleClass("show");
+                //})
+                //$("html").on("mouseup", function (e) {
+                //    var l = $(e.target); if (l[0].className.indexOf("history") == -1) {
+                //        $('.history').removeClass('show');
+                //    }
+                //});
+
+
+                $("nav.float-action-button .main-button").click(function () {
+                    $(".float-action-button a").each(function () {
+                        $(this).toggleClass('showbtn');
+                    });
+                })
+            });
+              var userid = '<%=p["user:id"]%>';
+
+  <%if (!string.IsNullOrEmpty(userplans["type"]) && (userplans["type"] == "2" || userplans["type"] == "1")){%>
+            var prm = true;
+            <%}
+            else {%>prm = false;<%}%>
+ 
+        </script>
+
+<%=Ws.Param(p, "theme:bodytags", "") %>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQTBT2P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<%--    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1EG2K42EBY"></script>--%>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-1EG2K42EBY');
+</script>
+
+<!-- Websan Team Copyright 2000-2022 All rights reserved. [www.websansite.com] -->
+
+
+</body>
+</html>

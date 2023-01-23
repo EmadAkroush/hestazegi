@@ -1,0 +1,20 @@
+{
+  "name": "@godgiven/data-manager",
+  "version": "0.0.0",
+  "description": "Godgiven Data manager Microservice",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "microservice",
+    "api",
+    "typescript",
+    "esm"
+  ],
+  "files": [
+    "**/*.{d.ts.map,d.ts,js.map,js,html,md}"
+  ],
+  "dependencies": {
+    "tslib": "^2.4.0"
+  }
+}

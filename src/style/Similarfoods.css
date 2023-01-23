@@ -1,0 +1,115 @@
+.Similarfoods .top {
+  padding: 40px 70px 0 70px;
+}
+.Similarfoods .top .top-text-onvan {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px !important;
+  line-height: 40px;
+}
+.Similarfoods .top .top-text-under {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 32px;
+  color: #181C32 !important;
+}
+.Similarfoods .foods-box {
+  width: auto;
+  margin: 18px 44px 40px 44px;
+  border: 1px solid #E4E6EF;
+  border-radius: 8px;
+  padding: 0;
+}
+.Similarfoods .foods-box .foods-box-right {
+  padding: 13px 17px;
+}
+.Similarfoods .foods-box .foods-box-right .foods-box-right-p {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px !important;
+  line-height: 32p;
+  margin-bottom: 5px;
+}
+.Similarfoods .foods-box .foods-box-right .search-icon {
+  font-size: 25px !important;
+  color: #A1A5B7;
+}
+.Similarfoods .foods-box .foods-box-right #input-with-icon-textfield {
+  width: 100%;
+  height: 48px;
+  color: #A1A5B7;
+}
+.Similarfoods .foods-box .foods-box-left {
+  padding: 0;
+  background-color: #F9FAFB;
+}
+.Similarfoods .foods-box .foods-box-left .share {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  padding: 13px 28px;
+}
+.Similarfoods .foods-box .foods-box-left .similar {
+  padding-right: 65px;
+}
+.Similarfoods .foods-box .foods-box-left .similar .similar-p {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px !important;
+  line-height: 32px;
+}
+.Similarfoods .foods-box .foods-box-left .foods-box-body {
+  padding: 25px 46px;
+}
+.Similarfoods .foods-box .foods-box-left .foods-box-body .css-mhc70k-MuiGrid-root > .MuiGrid-item {
+  padding: 0;
+}
+.Similarfoods .foods-box .foods-box-left .foods-box-body .link-mobile .img-card {
+  aspect-ratio: 10/5;
+}
+.Similarfoods .foods-box .foods-box-left .foods-box-body .link-mobile .title-card .title {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #181C32;
+}
+.Similarfoods .foods-box .foods-box-left .foods-box-body .card-hestazegi .card-ac {
+  flex-direction: row;
+}
+.Similarfoods .foods-box .foods-box-left .foods-box-body .box-btn {
+  width: 100%;
+  height: 290px;
+  background-color: white;
+  border: 1px solid #E4E6EF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-top: 10px;
+}
+.Similarfoods .foods-box .foods-box-left .foods-box-body .btn {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 40px;
+  color: #F69427 !important;
+  margin: 0 auto;
+}
+.Similarfoods .foods-box .foods-box-left .foods-box-body .btn .btn-icon {
+  margin-right: 4px;
+}
+.Similarfoods .foods-box .foods-box-left .foods-box-body .btn:hover {
+  background-color: white;
+  border: none;
+}/*# sourceMappingURL=Similarfoods.css.map */

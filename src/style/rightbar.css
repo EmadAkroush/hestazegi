@@ -1,0 +1,135 @@
+#btn-rightbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 18px;
+  background-color: white;
+}
+#btn-rightbar .counter {
+  color: #CF2D55;
+  margin-right: 10px;
+}
+
+.btn-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+}
+
+.float-icon-btn {
+  position: fixed;
+  bottom: 15px;
+  z-index: 10;
+}
+
+.drawer-icon-search {
+  font-size: 30px !important;
+}
+
+.input-drawer {
+  width: 90%;
+  margin: 0 20px !important;
+  margin-top: 6px !important;
+}
+
+.up-drawer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 6px 20px;
+  border-bottom: 1px solid #ACACAC;
+}
+.up-drawer .close-btn {
+  display: none;
+}
+.up-drawer .icon {
+  width: 16px;
+  height: 16px;
+}
+.up-drawer .left {
+  display: flex;
+  order: 1;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: right;
+  color: #303030;
+}
+.up-drawer .right {
+  display: flex;
+  order: 2;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: right;
+  color: #ACACAC;
+}
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  width: 100%;
+}
+
+#drawer-btn {
+  background-color: #EFEFEF;
+  border-radius: 5px;
+  margin: 32px 26px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 24px;
+  position: fixed;
+  bottom: -10px;
+  width: 86%;
+  color: #ACACAC;
+  box-shadow: none;
+}
+
+.body-drop {
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .css-bk30wd-MuiButtonBase-root-MuiCheckbox-root.Mui-checked + .drawer-btn {
+    color: #CF2D55 !important;
+  }
+  .paper-righbar {
+    display: none;
+  }
+  .up-drawer .left {
+    display: flex;
+    order: 2;
+  }
+  .up-drawer .right {
+    display: flex;
+    order: 1;
+  }
+  .up-drawer .close-btn {
+    display: flex;
+    order: 3;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .float-icon-btn {
+    display: none;
+  }
+  .up-drawer .right {
+    color: #2EB4FF !important;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 940px) {
+  .paper-righbar {
+    display: none;
+  }
+  .main-grid {
+    max-width: 100% !important;
+  }
+  .float-icon-btn {
+    display: block;
+  }
+}/*# sourceMappingURL=rightbar.css.map */

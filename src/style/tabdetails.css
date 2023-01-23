@@ -1,0 +1,1298 @@
+.tabs-bar {
+  background-color: #EFF2F5;
+  border-radius: 8px;
+  display: flex;
+  height: 64px;
+  align-items: center;
+  padding: 0 28px;
+}
+.tabs-bar .counter {
+  margin-right: 8px;
+  color: #F69427;
+}
+.tabs-bar .activetabs {
+  background: #B0BF24;
+  border-radius: 8px;
+  width: 246px;
+  height: 48px;
+  color: white;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: right;
+}
+.tabs-bar .activetabs .counter {
+  display: none;
+}
+.tabs-bar .activetabs:hover {
+  background: #B0BF24;
+  border-radius: 8px;
+  width: 246px;
+  height: 48px;
+  color: white;
+}
+.tabs-bar .tabs {
+  margin: 0 78px;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  text-align: right;
+}
+.tabs-bar .tabs:hover {
+  background-color: #EFF2F5 !important;
+}
+
+.activecontent {
+  display: block;
+}
+
+.content {
+  display: none;
+}
+
+.show-more {
+  padding: 16px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+  border-radius: 8px;
+}
+.show-more .color-orange {
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 16px;
+  color: #3778BC !important;
+}
+.show-more .icon {
+  color: #F69427;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.show-more .title {
+  display: flex;
+  align-items: center;
+}
+.show-more .title .title-h3 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px !important;
+  line-height: 32px;
+  text-align: right;
+  color: #3A3A3A;
+}
+.show-more .body {
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: right;
+  color: #868686;
+  margin-top: 7px;
+}
+
+.raw-material {
+  padding: 16px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+  border-radius: 8px;
+}
+.raw-material .icon {
+  color: #F69427;
+  font-size: 20px;
+  margin-left: 10px;
+  transform: rotate(160deg);
+}
+.raw-material .title {
+  display: flex;
+  align-items: center;
+}
+.raw-material .title .title-h3 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px !important;
+  line-height: 32px;
+  text-align: right;
+  color: #3A3A3A;
+}
+.raw-material .person {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.raw-material .person p {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  text-align: right;
+  color: #868686;
+  display: block;
+}
+.raw-material .person .btn-item {
+  margin: 0 5px !important;
+  padding: 6px 8px !important;
+  border: 1px solid #F69427 !important;
+  border-radius: 4px !important;
+  background-color: #F9F9FB;
+  width: 24px !important;
+  height: 24px !important;
+  min-width: 24px;
+}
+.raw-material .person .btn-item:hover {
+  background-color: #F9F9FB !important;
+}
+.raw-material .food-needed {
+  margin-top: 10px;
+}
+.raw-material .food-needed .title-h4 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 11px;
+  line-height: 24px !important;
+  color: #3A3A3A;
+}
+.raw-material .food-needed .icon-food {
+  color: #F69427;
+  margin-left: 7px;
+}
+.raw-material .food-needed .under-title {
+  display: flex;
+  align-items: flex-end;
+}
+.raw-material .food-needed .under-title-p {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 24px !important;
+  color: #868686;
+}
+.raw-material .food-needed .btn {
+  background: #F69427;
+  border-radius: 8px;
+  width: 101px;
+  height: 32px;
+  margin-right: 7px;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px !important;
+  line-height: 24px;
+}
+.raw-material .food-needed .btn:hover {
+  color: white;
+}
+.raw-material .food-needed .item-list {
+  background: #F5F8FA;
+  /* Gray/300 - E4E6EF */
+  border: 1px solid #E4E6EF;
+  border-radius: 4px;
+  margin: 10px 0;
+  width: 97%;
+}
+
+.cooking-instruction {
+  padding: 16px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+  border-radius: 8px;
+}
+.cooking-instruction .title {
+  display: flex;
+  align-items: center;
+}
+.cooking-instruction .title .title-h3 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px !important;
+  line-height: 32px;
+  text-align: right;
+  color: #3A3A3A;
+}
+.cooking-instruction .icon-food {
+  color: #F69427;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.cooking-instruction .plyr--audio > .plyr__controls {
+  border: none;
+}
+.cooking-instruction .plyr--audio .plyr__controls {
+  background-color: white;
+}
+.cooking-instruction .plyr--full-ui input[type=range] {
+  color: #F69427;
+}
+.cooking-instruction .plyr--audio .plyr__control.plyr__tab-focus,
+.cooking-instruction .plyr--audio .plyr__control:hover,
+.cooking-instruction .plyr--audio .plyr__control[aria-expanded=true] {
+  background-color: #F69427;
+}
+
+.cooking-steps {
+  padding: 16px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+  border-radius: 8px;
+}
+.cooking-steps .title-h4 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 11px;
+  line-height: 24px !important;
+  color: #3A3A3A;
+}
+.cooking-steps .title {
+  display: flex;
+  align-items: center;
+}
+.cooking-steps .title .title-h3 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px !important;
+  line-height: 32px;
+  text-align: right;
+  color: #3A3A3A;
+}
+.cooking-steps .icon-food {
+  color: #F69427;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.cooking-steps .icon-food-steps {
+  color: #F69427;
+  font-size: 40px;
+  margin-left: 7px;
+}
+.cooking-steps .title-cooking {
+  margin-top: 24px;
+}
+.cooking-steps .title-steps {
+  display: flex;
+}
+.cooking-steps .title-steps .icon-food-steps {
+  margin-right: -16px;
+  color: #B0BF24;
+}
+.cooking-steps .title-steps-p {
+  padding-top: 8px;
+  margin-right: -8px;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  color: #868686 !important;
+}
+.cooking-steps .content-steps {
+  width: 100%;
+  border-right: 1px dashed #B0BF24;
+  padding-left: 28px;
+}
+.cooking-steps .content-p {
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  color: #3A3A3A !important;
+  margin-right: 22px;
+  padding-bottom: 24px;
+}
+
+.cooking-points {
+  padding: 16px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+  border-radius: 8px;
+}
+.cooking-points .icon-food {
+  color: #F69427;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.cooking-points .title {
+  display: flex;
+  align-items: center;
+}
+.cooking-points .title .title-h3 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px !important;
+  line-height: 32px;
+  text-align: right;
+  color: #3A3A3A;
+}
+.cooking-points .body-points {
+  margin-top: 16px;
+}
+.cooking-points .body-points-p {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #3A3A3A;
+}
+
+.food-table {
+  padding: 16px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+  border-radius: 8px;
+}
+.food-table .icon-food {
+  color: #F69427;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.food-table .title {
+  display: flex;
+  align-items: center;
+}
+.food-table .title .title-h3 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px !important;
+  line-height: 32px;
+  text-align: right;
+  color: #3A3A3A;
+}
+.food-table .first-line {
+  display: flex;
+  justify-content: space-between;
+}
+.food-table .btn {
+  background-color: #F69427;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px !important;
+  line-height: 24px;
+  border-radius: 100px;
+}
+.food-table .btn:hover {
+  color: white !important;
+  background-color: #F69427;
+}
+.food-table .btn-icon {
+  margin-left: 8px;
+  font-size: 20px;
+}
+.food-table .div-item {
+  display: flex;
+  justify-content: space-between;
+  background: #F9F9FB;
+  border-radius: 4px;
+  padding: 8px 27px;
+  margin-bottom: 8px;
+}
+.food-table .div-item-p-r {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  color: #404040;
+}
+.food-table .div-item-p-l {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #656565;
+}
+.food-table .table-item {
+  margin-top: 24px;
+}
+
+.Item-equipment {
+  padding: 16px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+  border-radius: 8px;
+}
+.Item-equipment .icon-food {
+  color: #F69427;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.Item-equipment .title {
+  display: flex;
+  align-items: center;
+}
+.Item-equipment .title .title-h3 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px !important;
+  line-height: 32px;
+  text-align: right;
+  color: #3A3A3A;
+}
+.Item-equipment .div-item {
+  display: flex;
+  justify-content: space-between;
+  background: #F9F9FB;
+  border-radius: 4px;
+  padding: 8px 27px;
+  margin-bottom: 8px;
+}
+.Item-equipment .div-item-p-r {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #404040;
+}
+.Item-equipment .div-item-p-l {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #656565;
+}
+.Item-equipment .table-item {
+  margin-top: 24px;
+}
+
+.Record-feedback {
+  padding: 16px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+  border-radius: 8px;
+}
+.Record-feedback .icon-food {
+  color: #F69427;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.Record-feedback .title {
+  display: flex;
+  align-items: center;
+}
+.Record-feedback .title .title-h3 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px !important;
+  line-height: 32px;
+  text-align: right;
+  color: #3A3A3A;
+}
+.Record-feedback .body {
+  display: flex;
+  justify-content: center;
+}
+.Record-feedback .body .feedback-p {
+  font-family: "DanaFaNum";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #3A3A3A;
+}
+.Record-feedback .btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.Record-feedback .btns .btn-right {
+  background: #B0BF24;
+  border-radius: 8px;
+  width: 86px;
+  height: 40px;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  text-align: center;
+}
+.Record-feedback .btns .btn-left {
+  border: 1px solid #ACACAC;
+  border-radius: 8px;
+  width: 86px;
+  height: 40px;
+  color: #ACACAC;
+  margin-right: 8px;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  text-align: center;
+}
+.Record-feedback .btns .btn-left:hover {
+  background-color: white !important;
+}
+
+.Opinion {
+  padding: 16px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+  border-radius: 8px;
+}
+.Opinion .icon-food {
+  color: #F69427;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.Opinion .title {
+  display: flex;
+  align-items: center;
+}
+.Opinion .title .title-h3 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px !important;
+  line-height: 32px;
+  text-align: right;
+  color: #3A3A3A;
+}
+.Opinion .under-line {
+  margin-top: 4px;
+}
+.Opinion .star-icon {
+  color: #F69427;
+  margin-right: 25px;
+}
+.Opinion .voite {
+  color: #ACACAC;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 16px;
+}
+.Opinion .four {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 16px;
+}
+.Opinion .list .opinion-p {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  color: #656565;
+}
+.Opinion .list .up-list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 24px;
+}
+.Opinion .list .css-xlfkq4-MuiLinearProgress-root {
+  transform: rotate(180deg);
+}
+.Opinion .list .css-12kklyb-MuiLinearProgress-bar1 {
+  background-color: #B0BF24;
+}
+.Opinion .opinion-btn {
+  background-color: #B0BF24;
+  width: 100%;
+  height: 48px;
+  margin: 30px 0;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px !important;
+  line-height: 24px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.Opinion .opinion-btn:hover {
+  background-color: #B0BF24;
+}
+.Opinion .grid-left-tab {
+  padding-right: 20px;
+}
+.Opinion .grid-right-tab {
+  padding-left: 20px;
+}
+
+.opinion-left .avatar-img {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-left: 8px;
+}
+.opinion-left .opinion-left-h3 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px !important;
+  line-height: 24px;
+  color: #404040;
+}
+.opinion-left .body-text {
+  display: flex;
+  flex-direction: column;
+}
+.opinion-left .body-text .text-down {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px !important;
+  line-height: 20px;
+  color: #656565;
+}
+.opinion-left .body-text .text-up {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px !important;
+  line-height: 20px;
+  color: #303030;
+  padding-top: 5px;
+}
+.opinion-left .opinion-list-img {
+  display: flex;
+}
+.opinion-left .opinion-list-img .css-1m6607n-MuiListItemAvatar-root {
+  min-width: 10px !important;
+}
+.opinion-left .opinion-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  align-items: flex-start;
+  border-bottom: 1px solid #ACACAC;
+  padding: 8px 0;
+}
+.opinion-left .opinion-under-p {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  color: #404040;
+  margin-bottom: 10px;
+}
+.opinion-left .opinion-under-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 14px;
+}
+.opinion-left .opinion-under-body .text-re {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 16px;
+  color: #B0BF24 !important;
+}
+.opinion-left .opinion-under-body .icon-op {
+  margin-left: 8px;
+  font-size: 20px;
+}
+.opinion-left .opinion-under-body .icon-right {
+  display: flex;
+  align-items: center;
+}
+.opinion-left .opinion-under-body .icon-left {
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+.opinion-left .likedislike {
+  display: flex;
+}
+.opinion-left .icon-btn {
+  color: #B0BF24;
+  margin-right: 29px;
+}
+.opinion-left .btn {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px !important;
+  line-height: 24px;
+  color: #B0BF24;
+  margin-top: 22px;
+}
+
+.question {
+  padding: 16px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+  border-radius: 8px;
+}
+.question .question-list {
+  border-bottom: 1px solid #E7E7E7;
+}
+.question .text-re {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 16px;
+  color: #B0BF24 !important;
+}
+.question .icon-food {
+  color: #F69427;
+  font-size: 20px;
+  margin-left: 11px;
+}
+.question .title {
+  display: flex;
+  align-items: center;
+}
+.question .title .title-h3 {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px !important;
+  line-height: 32px;
+  text-align: right;
+  color: #3A3A3A;
+}
+.question .question-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  align-items: flex-start;
+  padding: 8px 0;
+}
+.question .question-list-img {
+  display: flex;
+  align-items: center;
+}
+.question .text-question {
+  margin-left: 30px;
+}
+.question .opinion-under-p {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  color: #404040;
+  margin-top: 12px;
+  margin-right: 40px;
+}
+.question .opinion-under-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.question .qustion-sabt {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px !important;
+  line-height: 24px;
+  color: #868686 !important;
+  margin-top: 40px;
+  margin-right: 38px;
+}
+.question .question-btn {
+  width: 213px;
+  height: 48px;
+  margin-top: 24px;
+  background-color: var(--color-green);
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800 !important;
+  font-size: 14px !important;
+  line-height: 24px;
+  border-radius: 8px;
+}
+.question .question-btn:hover {
+  background-color: var(--color-green);
+}
+.question .question-linkbar li {
+  display: inline-block;
+  margin-left: 40px;
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 24px;
+  color: #404040;
+}
+.question .second {
+  color: var(--color-green) !important;
+}
+.question .list-icon {
+  font-size: 20px;
+}
+.question .like-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+}
+.question .likedislike {
+  color: #B3B3B3;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.question .likedislike .icon-left {
+  margin-right: 20px;
+  color: #B3B3B3;
+}
+.question .likedislike .icon-right {
+  color: #B3B3B3;
+}
+.question .likedislike .icon-op {
+  font-size: 20px;
+  color: #B3B3B3;
+}
+.question .question-list-down {
+  margin-right: 40px;
+}
+.question .opinion-img {
+  width: 437px;
+  height: 235px;
+  margin: 17px 40px 5px 0;
+}
+.question .btn-other-question {
+  font-family: "DanaFaNum" !important;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px !important;
+  line-height: 24px;
+  color: #B0BF24 !important;
+  margin-top: 34px;
+}
+.question .form-input-cheacked {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-input-cheacked {
+    display: flex !important;
+    flex-direction: column;
+    padding: 8px 0;
+    margin-top: 10px;
+  }
+  .form-input-cheacked .css-k8txx2-MuiButtonBase-root-MuiCheckbox-root {
+    padding-right: 0;
+  }
+  .form-input-cheacked .css-j204z7-MuiFormControlLabel-root {
+    margin-top: 0;
+  }
+  .form-input-cheacked .css-k8txx2-MuiButtonBase-root-MuiCheckbox-root.Mui-checked {
+    color: #B0BF24;
+  }
+  .opinion-left .opinion-under-p {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px !important;
+    line-height: 24px;
+    color: #868686 !important;
+  }
+  .opinion-left .opinion-under-p {
+    margin-bottom: 0;
+  }
+  .opinion-left .opinion-list {
+    border-bottom: 1px solid #E7E7E7;
+  }
+  .opinion-left .body-text .text-down {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px !important;
+    line-height: 24px;
+  }
+  .opinion-left .avatar-img {
+    width: 31px;
+    height: 31px;
+  }
+  .under-opinion {
+    margin-bottom: 6px;
+  }
+  .icon-left-left {
+    margin-left: 17px;
+    font-size: 20px;
+    color: #FF3408;
+  }
+  .icon-left-left-green {
+    margin-left: 17px;
+    font-size: 20px;
+    color: #64E291;
+  }
+  .opinion-left .opinion-under-body .icon-op {
+    color: #B3B3B3;
+  }
+  .opinion-under-left-p {
+    color: #FF3408;
+  }
+  .opinion-under-left-p-green {
+    color: #64E291;
+  }
+  .likedislike-mobile {
+    color: #B3B3B3;
+  }
+  .opinion-left .opinion-under-body .icon-left {
+    margin-left: 18px;
+  }
+  .under-opinion-inside {
+    display: flex;
+  }
+  .opinion-left .opinion-under-body .icon-op {
+    margin-left: 0;
+  }
+  .opinion-left .opinion-under-body {
+    flex-direction: column !important;
+  }
+  .likedislike-mobile {
+    display: flex;
+  }
+  .under-opinion {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .opinion-left .body-text .text-up {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px !important;
+    line-height: 24px;
+  }
+  .opinion-left .likedislike {
+    display: none;
+  }
+  .body-text {
+    align-items: center;
+  }
+  .body-text .date-text {
+    display: none;
+  }
+  .body-text .date-text-horof {
+    display: block;
+    margin-right: 12px;
+    padding-top: 5px;
+    color: #868686 !important;
+  }
+  .body-text {
+    flex-direction: row !important;
+  }
+  .Item-equipment .title .title-h3 {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+  .food-table .title .title-h3 {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+  .cooking-points .title .title-h3 {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+  .cooking-steps .title .title-h3 {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+  .cooking-instruction .title .title-h3 {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+  .raw-material .title .title-h3 {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+  .show-more .title .title-h3 {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+  .info-food .head .text-onvan {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+  .opinion-left .opinion-left-h3 {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #868686 !important;
+  }
+  .opinion-left .btn {
+    display: none;
+  }
+  .show-more {
+    background-color: none;
+    box-shadow: none;
+  }
+  .raw-material {
+    background-color: none;
+    box-shadow: none;
+    display: none;
+  }
+  .show-more .body {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px !important;
+    line-height: 24px;
+  }
+  .cooking-steps {
+    background-color: none;
+    box-shadow: none;
+  }
+  .cooking-points {
+    background-color: none;
+    box-shadow: none;
+  }
+  .food-table {
+    background-color: none;
+    box-shadow: none;
+  }
+  .Item-equipment {
+    background-color: none;
+    box-shadow: none;
+  }
+  .Record-feedback {
+    background-color: none;
+    box-shadow: none;
+  }
+  .options {
+    margin: 17px 0 !important;
+  }
+  .tabs-bar {
+    display: none;
+  }
+  #mobile-content {
+    display: block;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(225, 225, 225, 0.1);
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  .Opinion .grid-left-tab {
+    padding-right: 0;
+    padding-left: 4px;
+  }
+  .Opinion .list .opinion-p {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px !important;
+    line-height: 24px;
+    color: #868686;
+  }
+  .Opinion .title .title-h3 {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+  .question .opinion-img {
+    width: 259px;
+    height: 127px;
+  }
+  .table-item .css-mhc70k-MuiGrid-root {
+    width: 100%;
+  }
+  .Item-equipment .div-item-p-r {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px !important;
+    line-height: 24px;
+  }
+  .food-table .div-item-p-r {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px !important;
+    line-height: 24px;
+    color: #868686;
+  }
+  .food-table .div-item-p-l {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px !important;
+    line-height: 24px;
+    color: #868686;
+  }
+  .food-table .btn {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+  .cooking-points {
+    display: none;
+  }
+  .cooking-steps .content-p {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 20px;
+  }
+  .cooking-steps .title-steps-p {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 11px !important;
+    line-height: 24px;
+  }
+  .cooking-steps .title-h4 {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 11px !important;
+    line-height: 24px;
+  }
+  .info-food .info-row .left {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .info-food .info-row {
+    padding: 0 15px;
+  }
+  .info-food {
+    padding-top: 20px;
+  }
+  .info-food .head .text-onvan {
+    margin-bottom: 15px;
+  }
+  .link-bar-first {
+    color: #3A3A3A !important;
+  }
+  .question-linkbar {
+    display: none;
+  }
+  .Record-feedback .title .title-h3 {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+  .Record-feedback .body .feedback-p {
+    margin-top: 20px;
+  }
+  .question .btn-other-question {
+    display: none;
+  }
+  .Opinion .opinion-btn {
+    width: 262px;
+    height: 44px;
+    align-items: center;
+    display: flex;
+  }
+  .question .opinion-under-p {
+    font-family: "DanaFaNum" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px !important;
+    line-height: 24px;
+    color: #868686;
+  }
+  .box-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .question .box-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-order {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-order .box-btn {
+    display: flex;
+    order: 1;
+  }
+  .mobile-order .qustion-sabt {
+    order: 2;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .under-opinion {
+    display: none;
+  }
+  .body-text .date-text {
+    display: block;
+  }
+  .body-text .date-text-horof {
+    display: none;
+  }
+}/*# sourceMappingURL=tabdetails.css.map */

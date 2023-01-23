@@ -1,0 +1,317 @@
+.whatcooking {
+    background-color: #F5F5F5;
+    padding: 40px 40px 18px 40px;
+
+
+    .custom-container {
+        background-color: #F5F5F5;
+
+    }
+
+    .parent-container {
+        border-radius: 24px;
+        background-color: white;
+        width: 100%;
+        display: flex;
+
+    }
+
+    .whatcooking-right {
+        background-image: linear-gradient(87.6deg, #F69427 3.69%, #FF7D1F 92.18%);
+        width: 100%;
+        height: 490px;
+        border-radius: 24px;
+        padding: 0 !important;
+        box-sizing: border-box;
+
+
+
+        .top {
+            width: 100%;
+            height: 80px;
+            background-color: white;
+            border-radius: 24px 24px 0 0;
+            border: 8px solid white;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 !important;
+            border: 1px solid #F69427;
+
+            .top-text {
+                font-family: 'DanaFaNum' !important;
+                font-style: normal;
+                font-weight: 800 !important;
+                font-size: 28px !important;
+                line-height: 40px;
+                color: #F69427 !important;
+
+            }
+
+        }
+
+        .undertop {
+            border-bottom: 1px solid white;
+            margin-bottom: 0;
+
+            .text {
+                .text-text {
+                    font-family: 'DanaFaNum' !important;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px !important;
+                    line-height: 32px;
+                }
+            }
+
+            .undertop-text {
+                font-family: 'DanaFaNum' !important;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 28px !important;
+                line-height: 40px;
+                color: #FFFFFF !important;
+                margin: 15px 23px 0 0;
+                padding-bottom: 15px;
+
+            }
+        }
+
+        .body {
+            padding: 21px 32px !important;
+
+            .body-text-onvan {
+                font-family: 'DanaFaNum' !important;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 18px !important;
+                line-height: 32px;
+                color: #F9FAFB !important;
+            }
+
+            .body-text {
+                font-family: 'DanaFaNum' !important;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px !important;
+                line-height: 32px;
+                text-align: right;
+                color: #F9FAFB;
+
+            }
+
+        }
+
+        .box-btn {
+            display: flex;
+            justify-content: center;
+
+            .btn {
+                height: 56px;
+                width: 357px;
+                background-color: white;
+                color: #F69427;
+                margin-top: 60px;
+                font-family: 'DanaFaNum' !important;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 16px !important;
+                line-height: 24px;
+
+                .icon {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .whatcooking-left {
+
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid red;
+            padding: 24px 42px;
+            border: 1px solid #EFEFEF;
+
+            .dinner {
+                height: 40px;
+                width: 123px;
+
+                border: 1px solid #B5B5C3;
+                border-radius: 20px;
+                padding: 6px 11px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .right-btn {
+                    width: 50px;
+                    height: 28px;
+                    min-width: 28px;
+                    background-color: #F69427;
+                    border-radius: 17px;
+                    color: white;
+                    font-family: 'DanaFaNum' !important;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px !important;
+                    line-height: 130%;
+
+
+                }
+
+                .left-btn {
+                    width: 50px;
+                    height: 28px;
+                    min-width: 28px;
+                    border-radius: 17px;
+                    color: #3F4254;
+                    background-color: white;
+                    font-family: 'DanaFaNum' !important;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px !important;
+                    line-height: 130%;
+
+
+
+                }
+            }
+
+            .share {
+                .share-icon {
+                    font-size: 24px;
+                    color: #F69427;
+                }
+
+            }
+        }
+
+        .under-top {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 47px 16px 47px;
+            border: 1px solid #EFEFEF;
+
+            .under-top-right {
+                display: flex;
+                align-items: center;
+                padding-top: 10px;
+
+                .text {
+                    .text-text {
+                        font-family: 'DanaFaNum' !important;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px !important;
+                        line-height: 32px;
+                        margin-right: 8px;
+                        color: #656565;
+                        margin-top: 2px;
+                    }
+                }
+
+                .pic-icon {
+                    font-size: 30px;
+                    color: #F69427;
+
+
+                }
+
+            }
+
+            .under-top-left {
+                display: flex;
+
+                .text-tick {
+                    display: flex;
+                    padding-top: 10px;
+
+                    .right {
+                        display: flex;
+                        align-items: center;
+
+                        .icon-right {
+                            font-size: 20px;
+                            color: #F69427;
+                            margin-left: 8px;
+                            display: flex;
+                            align-items: center;
+                            padding: 0;
+                            margin: 0;
+                        }
+                    }
+
+                    .left {
+                        display: flex;
+                        align-items: center;
+
+                        .p-left {
+                            font-family: 'DanaFaNum' !important;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px !important;
+                            line-height: 24px;
+                            text-align: center;
+                            color: #656565 !important;
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+        .body {
+            padding: 10px 45px;
+            display: flex;
+            gap: 48px;
+
+            .link-mobile {
+                .img-card {
+                    aspect-ratio: 10/5;
+                }
+
+                .title-card {
+                    .title{
+                    font-family: 'DanaFaNum' !important;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px !important;
+                    line-height: 24px;
+                    display: flex;
+                    align-items: center;
+                    text-align: right;
+                    color: #181C32;
+                    }
+                }
+            }
+            .card-hestazegi .card-ac{
+                flex-direction: row;
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .whatcooking{
+        .whatcooking-right{
+            display: none;
+        }
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+@media only screen and (min-width: 600px) and (max-width: 940px){
+
+    
+ }

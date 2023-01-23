@@ -1,0 +1,248 @@
+
+.paper-righbar {
+    box-shadow: 0px 4px 16px rgba(137, 137, 137, 0.1) !important;
+    border-radius: 8px;
+}
+
+.up-rightbar {
+    border-bottom: 2px solid #acacac;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: black;
+
+    .left {
+        color: #2EB4FF;
+    }
+
+    .right {
+        color: #000;
+    }
+}
+
+.drop-rightbar {
+    display: flex;
+    align-items: center;
+
+    .typography {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .check-lable {
+        margin-right: 12px !important;
+    }
+
+}
+
+#btn-rightbar {
+    border-bottom: 1px solid #EFEFEF;
+    padding: 10px 0;
+
+}
+
+.list-righbar {
+    padding: 0 18px;
+}
+
+// .right{
+//     position: fixed;
+//     top: 0;
+//     right: 0;
+//     height: 100vh;
+// }
+.upbar-body {
+    border-bottom: 1px solid #ACACAC;
+    margin: 0 13px;
+    display: flex;
+    justify-content: space-between;
+
+    .resalt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .resalt-p {
+        margin-left: 8px;
+    }
+
+    .link-bar-up {
+
+        .first {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 24px;
+            color: #303030;
+
+        }
+
+        .second {
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 24px;
+            color: #B0BF24;
+        }
+
+        .item {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 24px;
+            color: #404040;
+        }
+    }
+
+    .link-bar-up li {
+        display: inline;
+        padding: 0;
+        margin-left: 10px;
+
+    }
+
+
+}
+
+.btn-filter {
+    display: flex;
+    justify-content: space-between;
+
+    .link-bar-btn {
+        padding: 22px 0;
+        margin-right: 10px;
+    }
+
+    .link-bar-btn li {
+        display: inline;
+        padding: 0;
+        margin: 24px 5px !important;
+
+    }
+
+    .btn-item {
+        background: #EFF2F5;
+        border-radius: 4px;
+        color: #000;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 8px 10px;
+        margin: 0;
+    }
+
+    .btn-item:hover {
+        background: #EFF2F5;
+        border-radius: 4px;
+    }
+
+    .close-icon {
+        margin-right: 10px;
+        font-size: 20px;
+
+    }
+
+    .delete-btn {
+        display: flex;
+        align-items: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        color: #CF2D55 !important;
+    }
+
+    .delete-p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        color: #CF2D55 !important;
+        padding-left: 14px;
+    }
+
+}
+
+.Pagination {
+    margin: 48px 0;
+    display: flex;
+    justify-content: center;
+
+    .Mui-selected {
+        background-color: #B0BF24 !important;
+        color: white;
+        border-radius: 15px;
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .MuiButtonBase-root {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Mui-disabled {
+        background-color: #F6F8F9 !important;
+        color: #CCE4FF !important;
+    }
+
+    .MuiSvgIcon-root {
+        transform: rotate(180deg);
+        font-size: 24px;
+        color: #B0BF24;
+
+    }
+}
+
+.recipes-h1 {
+    font-family: 'DanaFaNum' !important;
+    font-style: normal;
+    font-weight: 800 !important;
+    font-size: 22px !important;
+    line-height: 32px !important;
+    padding-bottom: 32px;
+}
+
+.right {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .grid-right {
+        display: none;
+        
+    }
+
+
+
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+@media only screen and (min-width: 600px) and (max-width: 940px){
+    .paper-righbar{
+        display: none;
+    }
+    
+    
+ }
